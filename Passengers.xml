@@ -1,0 +1,26 @@
+<PassengerList>
+    <Passenger>
+        <Id>1</Id>
+        <FirstName>Имя</FirstName>
+        <LastName>Фамилия</LastName>
+        <FlightNumber>A-118</FlightNumber>
+    </Passenger>
+    <Passenger>
+        <Id>2</Id>
+        <FirstName>Имя</FirstName>
+        <LastName>Фамилия</LastName>
+        <FlightNumber>A-118</FlightNumber>
+    </Passenger>
+    <Passenger>
+        <Id>3</Id>
+        <FirstName>Имя</FirstName>
+        <LastName>Фамилия</LastName>
+        <FlightNumber>A-118</FlightNumber>
+    </Passenger>
+    <Passenger>
+        <Id>4</Id>
+        <FirstName>Имя</FirstName>
+        <LastName>Фамилия</LastName>
+        <FlightNumber>A-118</FlightNumber>
+    </Passenger>
+</PassengerList>

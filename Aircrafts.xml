@@ -1,0 +1,20 @@
+<AircraftList>
+    <Aircraft>
+        <Id>1</Id>
+        <Model>Новая модель</Model>
+        <Capacity>100</Capacity>
+        <Airline>Новая авиакомпания</Airline>
+    </Aircraft>
+    <Aircraft>
+        <Id>2</Id>
+        <Model>Новая модель</Model>
+        <Capacity>100</Capacity>
+        <Airline>Новая авиакомпания</Airline>
+    </Aircraft>
+    <Aircraft>
+        <Id>3</Id>
+        <Model>Новая модель</Model>
+        <Capacity>100</Capacity>
+        <Airline>Новая авиакомпания</Airline>
+    </Aircraft>
+</AircraftList>
