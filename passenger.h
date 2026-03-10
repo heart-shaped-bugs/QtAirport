@@ -3,9 +3,9 @@
 #include "QString"
 
 class Passenger {
-public:
+   public:
     Passenger();
-    Passenger(int id, const QString &firstName, const QString &lastName, const QString &flightNumber);
+    Passenger(int id, const QString& firstName, const QString& lastName, const QString& flightNumber);
 
     int getId() const;
     QString getFirstName() const;
@@ -13,15 +13,15 @@ public:
     QString getFlightNumber() const;
 
     void setId(int value);
-    void setFirstName(const QString &value);
-    void setLastName(const QString &value);
-    void setFlightNumber(const QString &value);
+    void setFirstName(const QString& value);
+    void setLastName(const QString& value);
+    void setFlightNumber(const QString& value);
 
-private:
+   private:
     int id;
     QString firstName;
     QString lastName;
     QString flightNumber;
 };
 
-#endif // PASSENGER_H
+#endif  // PASSENGER_H

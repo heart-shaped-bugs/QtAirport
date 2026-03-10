@@ -3,9 +3,9 @@
 #include <QString>
 
 class Aircraft {
-public:
+   public:
     Aircraft();
-    Aircraft(int id, const QString &model, int capacity, const QString &airline);
+    Aircraft(int id, const QString& model, int capacity, const QString& airline);
 
     int getId() const;
     QString getModel() const;
@@ -13,11 +13,11 @@ public:
     QString getAirline() const;
 
     void setId(int value);
-    void setModel(const QString &value);
+    void setModel(const QString& value);
     void setCapacity(int value);
-    void setAirline(const QString &value);
+    void setAirline(const QString& value);
 
-private:
+   private:
     int id;
     QString model;
     int capacity;
