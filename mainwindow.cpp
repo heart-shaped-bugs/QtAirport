@@ -90,11 +90,6 @@ void MainWindow::on_btnSaveAircraft_clicked() {
         for (int i = 0; i < aircraftList.size(); ++i) {
             const Aircraft& aircraft = aircraftList[i];
 
-            qDebug() << aircraft.getId();
-            qDebug() << aircraft.getModel();
-            qDebug() << aircraft.getCapacity();
-            qDebug() << aircraft.getAirline();
-
             QDomElement aircraftElement = doc.createElement("Aircraft");
 
             QDomElement idElement = doc.createElement("Id");
